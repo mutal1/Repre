@@ -1,0 +1,70 @@
+#title_color {
+    color: rgb(255, 115, 0);
+}
+
+.image_s {
+    position: relative;
+    left: 50px;
+    width: 100px ;
+}
+
+.font_25 {
+    font-size: 25px;
+    color: rgb(0, 217, 255);
+}
+
+.font_15 > li
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.font_color{
+    color: royalblue;
+}
+
+#main_position{
+    position: relative;
+    text-align: center;
+    font-style: oblique;
+
+}
+
+    .background::before{
+    content:"";
+    background:url("background3.jpg"); 
+    background-size:cover;
+    opacity:1;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    }
+
+    .background {
+        position: relative;
+        width: 50%;
+        height: auto;
+        }
+      
+      .background:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+      }
+      
+      .background {
+        position: absolute;
+        width: 100%;
+      }
+      
+      .background{
+        text-align: left;
+      }
+    
+      .void{
+        position: relative;
+      }
+      
+      
